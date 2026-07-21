@@ -1,6 +1,6 @@
 cask "seqlens" do
-  version "26.13.0"
-  sha256 "19bd6bc9bbe1546970fceb5d965cf1b868a30abc6b42e2bd90f1d04e6bde78d7"
+  version "26.13.1"
+  sha256 "23353308718730d1664a6c1acabb14f4ec83b5cafe25ea2efd7a2fc652f541c3"
 
   url "https://api.seqlens.app/v1/download/mac/#{version}"
   name "SeqLens"
