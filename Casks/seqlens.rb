@@ -1,6 +1,6 @@
 cask "seqlens" do
-  version "26.13.1"
-  sha256 "23353308718730d1664a6c1acabb14f4ec83b5cafe25ea2efd7a2fc652f541c3"
+  version "26.14.0"
+  sha256 "0c385c09bf851e8786e73057d280f4efc00424ff6b1a9b96a58920db2ee9da78"
 
   url "https://api.seqlens.app/v1/download/mac/#{version}"
   name "SeqLens"
@@ -16,7 +16,7 @@ cask "seqlens" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "SeqLens.app"
 
